@@ -1,0 +1,176 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color:whitesmoke
+}
+
+.flex{
+    display: flex;
+}
+
+.center{
+    align-items: center;
+
+}
+
+header{
+    background-color: rgb(32, 125, 120);
+}
+
+section{
+    height: 350px;
+}
+
+a{
+    color: #42b4d6;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.top{
+    text-align: center;
+    padding-top: 2rem;
+
+}
+
+.pic img{
+    width: 200px; 
+    border: 1px solid white;
+    border-radius: 100%;
+    
+}
+
+.about{
+    font-family: 'Roboto Slab', 'serif';
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+    padding-left: 5rem;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.main{
+    padding-top: 6rem;
+    padding-left: 9rem;
+    padding-bottom: 3rem;  
+}
+
+.heading{
+    font-family: 'Roboto Slab', 'Serif';
+    font-size: 36px;
+    font-weight: bold;
+    color:rgb(51, 51, 51);
+}
+
+p{
+    font-family: 'Source Sans Pro', 'sans-serif';
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    line-height: 32px;
+}
+.sec1 {
+    padding-top: 6rem;
+    padding-left: 9rem;
+    padding-bottom: 3rem; 
+}
+
+.sec1 p {
+    padding-left: 14rem;
+}
+
+.coll{
+    padding-right: 5rem;
+}
+
+.cc{
+    padding-left: 14rem;
+    padding-top: 1rem;
+}
+
+.pro{
+    padding-top: 2rem;
+}
+
+ul{
+    padding-left: 15rem;
+    padding-top: 1rem;
+    line-height: 32px;
+}
+
+#Timetable{
+    font-size: large;
+    font-weight: bold;
+    width: 100%;
+    font-family: 'Hubballi', cursive, 'serif';
+    padding: 10px;
+}
+
+#Timetable th{
+    padding: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: palevioletred;
+}
+
+#Timetable td{
+    text-align: center;
+    padding: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    color: blueviolet;
+}
+
+.tt{
+    background-image: url(bb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.tth{
+    font-family: 'Hubballi', cursive, 'serif';
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.cv{
+    font-family: 'Hubballi', cursive, 'serif';
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.fr{
+    width: 100%;
+}
+
+.flexx{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fr div{
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+footer{
+    background-color: rgb(32, 125, 120);
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+}
+
+.mw{
+    padding-left: 0;
+}
